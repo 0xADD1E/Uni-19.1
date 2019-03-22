@@ -4,7 +4,7 @@ services:
     build: .
     labels:
       - "virtual.host=cs464.0xadd1e.me"
-      - "virtual.port=80"
+      - "virtual.port=8080"
       - "virtual.tls-email=0xadd1e@gmail.com"
 networks:
   default:
